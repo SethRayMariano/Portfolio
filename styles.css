@@ -1,3 +1,76 @@
-*{
-    background-color: #000;
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #848484;
+  text-align: left;
+  background-color: #000;
+}
+
+header {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+}
+
+.hd {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+.hd-t {
+  text-align: center;
+  font-size: 20px;
+  color: #ffff;
+  padding-top: 30px;
+}
+
+.hd-a {
+  margin: auto;
+}
+
+.hd1 {
+  background-color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-size: 22px !important;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: #262626;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-github {
+  color: white;
 }
