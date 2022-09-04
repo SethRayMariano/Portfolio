@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -33,25 +33,69 @@ header {
 .hd-a {
   margin: auto;
 }
+.hd-b{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul{
+  margin-left: auto;
+  margin-right: auto;
+}
+.hd0 {
+  padding-top: 100px;
+}
 
 .hd1 {
   box-sizing: border-box;
   display: flex;
 }
-.hd1-a{
+
+.hd1-a {
   opacity: 0;
   padding-top: 10px;
 }
-.hd1-b{
+
+.hd1-b {
+
   padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   width: auto;
 }
-.hd1-c{
+
+.hd1-c {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.hd1-d {
+  font-size: 25px;
+}
+.hd1-e{
+  justify-content: center;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.txt-con {
+  left: 100px;
+  top: 120px;
+  width: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: absolute;
+  text-align: left;
+}
+
+.txt {
+  color: #ffff;
+  font-size: 25px !important;
+  display: inline-block;
+}
+
+.txt-a {
+  font-size: 50px !important;
 }
 
 .fa {
@@ -68,26 +112,77 @@ header {
 
 .fa:hover {
   opacity: 0.7;
+  text-decoration: underline;
 }
 
 
-img.img1{
+img.img1 {
   width: 100%;
 }
-.img-con{
+
+.con {
+  position: absolute;
+  left: 41%;
+  top: 16px;
+}
+
+.img-con {
   text-align: center;
   position: relative;
 }
-img.img2{
+
+img.img2 {
   width: 400px;
   height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-footer{
+img.img3{
+  padding-left: 83px;
+  padding-right: 83px;
+  height: 50px;
+  width: 70px;
+}
+.img1{
+  text-align: center;
+}
+
+footer {
   background: #262626;
   padding: 48px;
   display: block;
   text-align: center;
 }
-a.link{
+
+a.link {
   color: #ffff;
+  text-decoration: none;
+}
+
+a.link-act {
+  color: #E45F4E;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: #E45F4E;
+}
+
+a.link1 {
+  color: #ffff;
+  text-decoration: none;
+}
+
+a.link1:hover {
+  text-decoration: underline;
+}
+
+a.con-a {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px !important;
 }
