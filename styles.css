@@ -118,10 +118,12 @@ ul {
   opacity: 0.7;
   text-decoration: underline;
 }
-.fa-pr{
-background: #262626 !important;
+
+.fa-pr {
+  background: #262626 !important;
 }
-.fa-pr:hover{
+
+.fa-pr:hover {
   text-decoration: none !important;
   opacity: 1 !important;
 }
@@ -162,7 +164,8 @@ img.img3 {
   height: 50px;
   width: 70px;
 }
-img.img4{
+
+img.img4 {
   width: 300px;
 }
 
@@ -208,26 +211,32 @@ a.con-a {
   padding-bottom: 8px;
   font-size: 20px !important;
 }
-.pr{
+
+.pr {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
   padding-left: 10px;
 }
-.pr-text1{
-font-size: 20px;
+
+.pr-text1 {
+  font-size: 20px;
 }
-.pr-text2{
-font-size: 13px;
-opacity: 0.6;
+
+.pr-text2 {
+  font-size: 13px;
+  opacity: 0.6;
 }
-.pr-a{
+
+.pr-a {
   padding-bottom: 20px;
 }
-.pr-b{
+
+.pr-b {
   padding-top: 0 !important;
 }
-.pr1{
+
+.pr1 {
   display: inline-block;
   text-align: center;
   padding-top: 8px;
@@ -236,12 +245,52 @@ opacity: 0.6;
   margin-left: 3%;
   margin-right: auto;
 }
-.pr2{
+
+.pr2 {
   background: #262626;
   width: 500px;
   padding-left: 30px;
 }
-.pr3{
+
+.pr3 {
   align-self: center;
   padding-right: 30px;
+}
+
+.ct {
+  padding-top: 20px;
+  padding-left: 16px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ct1 {
+  margin-left: 350px;
+  padding: 20px;
+}
+
+.ct2 {
+  height: 20px;
+  width: 600px;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.ct2-m {
+  height: 260px;
+}
+
+.ct3 {
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 16px;
+  padding: 16px;
+  background: #E45F4E;
+  color: #ffff;
+  border: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline-block;
 }
